@@ -1,0 +1,56 @@
+body {
+    background-color: #f9f9f9;
+    color: #666;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    overflow-y: scroll;
+}
+.header {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.nav {
+    display: inline-block;
+}
+.nav a i {
+    padding-right: 7px;
+    font-size: 20px;
+}
+.me-link img {
+    max-width: 180px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    border: 3px solid #999;
+}
+.me-link img:hover {
+    border-color: #ccc;
+}
+.me-social a {
+    color: #999;
+    font-size: 50px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.me-social a:hover {
+    color: #ccc;
+}
+.jumbotron h1,
+.jumbotron .me,
+.jumbotron .me-social {
+    text-align: center;
+}
+.jumbotron h1 {
+    padding-bottom: 20px;
+}
+.me-follow {
+    padding-top: 10px;
+    text-align: center;
+}
+.me {
+    margin-bottom: 10px;
+}
